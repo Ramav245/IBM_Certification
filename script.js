@@ -13,9 +13,9 @@ function compute()
     {
 
 
-    document.getElementById("result").innerHTML="If you deposit " + principal + 
-    " at an interest rate of " + rate + " you will recieve an amount of " + interest + 
-    " in the year " + year; 
+    document.getElementById("result").innerHTML="If you deposit <mark>" + principal + 
+    "</mark> at an interest rate of <mark>" + rate + "</mark> you will recieve an amount of <mark>" + interest + 
+    "</mark> in the year <mark>" + year + "</mark>"; 
     }
     else
     {
